@@ -1,0 +1,24 @@
+Subject1=int(input("Enter marks of the first subject: "))
+
+Subject2=int(input("Enter marks of the second subject: "))
+
+Subject3=int(input("Enter marks of the third subject: "))
+
+Subject4=int(input("Enter marks of the fourth subject: "))
+
+Subject5=int(input("Enter marks of the fifth subject: "))
+
+Average=(Subject1+Subject2+Subject3+Subject4+Subject5)/5
+
+print(f"Average Marks:{Average}")
+
+if Average>=90:
+   print("Grade: A")
+elif Average>=80 and Average<90:
+     print("Grade: B")
+elif Average>=70 and Average<80:
+     print("Grade: C")
+elif Average>=60 and Average<70:
+     print("Grade: D")
+else:
+     print("Grade: F")
